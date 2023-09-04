@@ -1,5 +1,5 @@
 
-## AlexisHR Calendar Sync
+# AlexisHR Calendar Sync
 AlexisHR does not provide any resonable way of adding the away calendar to 
 an external calendar service. Eg Google Calendar.
 
