@@ -1,0 +1,19 @@
+name = "<PROJECT_NAME>"
+main = "src/index.ts"
+compatibility_date = "2023-08-14"
+
+kv_namespaces = [
+  { binding = "AlexisStore", id = "<AlexisStore_ID>", preview_id = "AlexisStore_PREVIEW_ID"}
+]
+
+[vars]
+API_KEY = "<API_KEY>" ## The access key for at particular
+TZ = "Europe/Stockholm"
+DOMAIN = "alexishr.com"
+
+
+[triggers]
+crons = [ "55 * * * *" ]
+
+
+
